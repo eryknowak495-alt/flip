@@ -1,25 +1,26 @@
 {
-  "updated": "2026-09-19",
-  "note": "Pierwszy zywy pass. Nastepny cykl porownuje po polu link (NOWA/ZNANA/ZNIKNELA).",
+  "updated": "2026-09-21",
+  "note": "Pass 21.09. Nastepny cykl porownuje po polu link (NOWA/ZNANA/ZNIKNELA).",
   "olx": [
-    {"model": "11 64GB", "ask": 250, "link": "https://www.olx.pl/d/oferta/iphone-11-64-gb-CID99-ID1coYP9.html", "tag": "rank1"},
-    {"model": "13 ?GB", "ask": 650, "link": "https://www.olx.pl/d/oferta/iphone-13-w-bardzo-dobrym-stanie-CID99-ID1coYcc.html", "tag": "rank3"},
-    {"model": "11 ?GB", "ask": 350, "link": "https://www.olx.pl/d/oferta/iphone-11-w-dobrym-stanie-CID99-ID1bH7ta.html", "tag": "rank7"},
-    {"model": "11 Pro 64GB", "ask": 300, "link": "https://www.olx.pl/d/oferta/iphone-11-pro-64-gb-CID99-ID1coXRv.html", "tag": "bonus-poza-kanonem"},
-    {"model": "12 mini 128GB 80%", "ask": 460, "link": "https://www.olx.pl/d/oferta/iphone-12-mini-5g-128gb-80-bateria-stan-idealny-CID99-ID1c6bYz.html", "tag": "obserwacja"},
-    {"model": "12 mini 128GB", "ask": 300, "link": "https://www.olx.pl/d/oferta/iphone-12-mini-128gb-CID99-ID1coWYZ.html", "tag": "ryzyko"},
-    {"model": "13 mini 128GB", "ask": 600, "link": "https://www.olx.pl/d/oferta/iphone-13-mini-rozowy-128-gb-CID99-ID1cnhXe.html", "tag": "obserwacja"}
+    {"model": "12 64GB 88%", "ask": 550, "link": "https://www.olx.pl/d/oferta/iphone-12-64gb-88-CID99-ID1cq0fO.html", "tag": "rank4"},
+    {"model": "11 64GB Slupsk", "ask": 350, "link": "https://www.olx.pl/d/oferta/iphone-11-64-gb-CID99-ID1cpnpP.html", "tag": "rank5"},
+    {"model": "SE 2022 128GB Sosnowiec", "ask": 450, "link": "https://www.olx.pl/d/oferta/iphone-se-2022-3-gen-128-gb-CID99-ID1cpXHx.html", "tag": "rank7"},
+    {"model": "12 mini 128GB Pleszew", "ask": 430, "link": "https://www.olx.pl/d/oferta/iphone-12-mini-stan-bardzo-dobry-CID99-ID1c5Sxv.html", "tag": "rank8-spadek470-430"},
+    {"model": "12 Pro Bialystok", "ask": 700, "link": "https://www.olx.pl/d/oferta/smartfon-iphone-12-pro-CID99-ID1cpYhW.html", "tag": "obserwacja"},
+    {"model": "11 Katowice", "ask": 350, "link": "https://www.olx.pl/d/oferta/iphone-11-w-dobrym-stanie-CID99-ID1bH7ta.html", "tag": "znana-od-19.09"},
+    {"model": "12 mini 256GB Krakow", "ask": 650, "link": "https://www.olx.pl/d/oferta/iphone-12-mini-256gb-stan-bdb-zadbane-etui-szklo-bez-wad-CID99-ID1bVtaa.html", "tag": "obserwacja"}
   ],
   "vinted": [
-    {"model": "13 128GB 87%", "ask": 699, "link": "https://vinted.com/items/10061298362-iphone-13-128gb-87-niebieski", "tag": "rank2"},
-    {"model": "SE 2022", "ask": 358.93, "link": "https://vinted.pl/items/10059817736-iphone-se-2022", "tag": "rank4"},
-    {"model": "11 128GB 75%", "ask": 330, "link": "https://vinted.pl/items/10062208162-iphone-11-128gb-75-okazja", "tag": "rank5"},
-    {"model": "12 Pro 128GB Gold", "ask": 510, "link": "https://vinted.pl/items/10048008356-iphone-12-pro-gold-128gb", "tag": "rank6"},
-    {"model": "12 64GB bialy", "ask": 450, "link": "https://vinted.com/items/10059166443-iphone-12-bialy-64gb", "tag": "rank8"},
-    {"model": "13 128GB", "ask": 400, "link": "https://vinted.com/items/10060341689-iphone-13-128-gb", "tag": "ryzyko"},
-    {"model": "12 Pro 128GB", "ask": 425, "link": "https://vinted.pl/items/10055107170-iphone-12-pro-128gb", "tag": "ryzyko"},
-    {"model": "SE 2022 iOS27", "ask": 419.46, "link": "https://vinted.pl/items/10055067597-iphone-se-2022-ios-27", "tag": "ryzyko"},
-    {"model": "12 64GB 87% bez blokad", "ask": 549.99, "link": "https://vinted.com/items/10062093355-iphone-12-64gb-white-bialy-87-baterii-bez-blokad-stan-bdb", "tag": "obserwacja"},
-    {"model": "13 128GB 89% +pudelko", "ask": 749, "link": "https://vinted.com/items/10062036614-iphone-13-128gb-bateria-89-pudelko-oraz-nowy-kabelek-gratis", "tag": "obserwacja"}
+    {"model": "13 128GB stan idealny", "ask": 679, "link": "https://vinted.com/items/10079559963-iphone-13-128gb-stan-idealny", "tag": "rank1"},
+    {"model": "13 128GB Pink 87%", "ask": 700, "link": "https://vinted.com/items/10074937821-apple-iphone-13-pink-128-gb-kondycja-baterii-87", "tag": "rank2"},
+    {"model": "13 128GB", "ask": 652.61, "link": "https://vinted.com/items/10077242723-iphone-13-128gb", "tag": "rank3"},
+    {"model": "11 64GB", "ask": 330, "link": "https://vinted.pl/items/10076229865-iphone-11-64gb", "tag": "rank6"},
+    {"model": "13 128GB 88% 2etui", "ask": 300, "link": "https://vinted.com/items/10079658543-iphone-13-czarny-128gb-2-etui-88-kondycja", "tag": "ryzyko"},
+    {"model": "12 64GB", "ask": 312.38, "link": "https://vinted.pl/items/10075666505-iphone-12-64gb", "tag": "ryzyko"},
+    {"model": "12 Pro", "ask": 605.60, "link": "https://vinted.pl/items/10079557691-iphone-12-pro", "tag": "obserwacja"},
+    {"model": "12 128GB bdb pudelko", "ask": 600, "link": "https://vinted.pl/items/10075868680-iphone-12-128-gb-stan-bardzo-dobry-pudelko", "tag": "obserwacja"},
+    {"model": "12 mini 128GB", "ask": 441.66, "link": "https://vinted.pl/items/10075883494-iphone-12-mini-128gb", "tag": "obserwacja"},
+    {"model": "SE 2022 iOS27", "ask": 419.46, "link": "https://vinted.pl/items/10055067597-iphone-se-2022-ios-27", "tag": "znana-od-19.09"},
+    {"model": "SE 2022 (podrozal)", "ask": 469.52, "link": "https://vinted.pl/items/10059817736-iphone-se-2022", "tag": "wypadla-nad-max-buy"}
   ]
 }
