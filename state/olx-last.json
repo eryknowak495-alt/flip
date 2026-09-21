@@ -1,80 +1,82 @@
 {
-  "pass_timestamp": "2026-09-19T21:40:00+02:00",
+  "pass_timestamp": "2026-09-21T00:00:00+02:00",
   "source": "OLX.pl live WebFetch (q-iphone-13, q-iphone-12, q-iphone-12-pro, q-iphone-12-mini, q-iphone-se-2022, q-iphone-11), sort created_at:desc",
-  "note": "Egress odblokowany, pierwszy żywy pass. Filtrowane wg kanonu (max buy / pasmo ask 500-700 dla 12-13). Odrzucono: modele poza kanonem powyżej budżetu, akcesoria, hard-stop (brak w tym passie widocznych iCloud/MDM/SIM-lock/na części w tytułach - opisy pełne nie sprawdzone).",
+  "note": "Diff vs pass 2026-09-19 (state/shortlist.json + poprzedni olx-last.json). Kilka top-hitow z 19.09 zniknelo z listy najnowszych (prawdopodobnie sold lub spadly ponizej pierwszej strony sortu). Filtrowane wg kanonu.",
   "olx": [
     {
-      "model": "iPhone 13 mini", "memory": "128GB", "ask": 600, "location": "Jastrzębie-Zdrój",
-      "shipping": "do potwierdzenia", "link": "https://www.olx.pl/d/oferta/iphone-13-mini-rozowy-128-gb-CID99-ID1cnhXe.html",
-      "condition_note": "brak baterii/kondycji w tytule", "status": "NOWA", "bucket": "13-band-nego"
+      "model": "iPhone 12 Pro", "memory": "brak w tytule", "ask": 700, "location": "Białystok, Centrum",
+      "shipping": "tak (Dostawa gratis)", "link": "https://www.olx.pl/d/oferta/smartfon-iphone-12-pro-CID99-ID1cpYhW.html",
+      "condition_note": "brak baterii/kondycji w opisie, top pasma 500-700 na 12 Pro, nego do ~550-580", "status": "NOWA", "bucket": "12pro-band-nego"
     },
     {
-      "model": "iPhone 13", "memory": "brak w tytule", "ask": 650, "location": "Olsztyn",
-      "shipping": "do potwierdzenia", "link": "https://www.olx.pl/d/oferta/iphone-13-w-bardzo-dobrym-stanie-CID99-ID1coYcc.html",
-      "condition_note": "opis lakoniczny \"bardzo dobry stan\", brak baterii/pamięci", "status": "NOWA", "bucket": "13-band-nego"
+      "model": "iPhone 12 Pro", "memory": "brak w tytule", "ask": 750, "location": "Białystok, Centrum",
+      "shipping": "tak (Dostawa gratis)", "link": "https://www.olx.pl/d/oferta/smartfon-iphone-12-pro-CID99-ID1cpXWD.html",
+      "condition_note": "dublet tego samego sprzedawcy co wyzej, lekko nad pasmem, nizszy priorytet", "status": "NOWA", "bucket": "12pro-band-nego-lowprio"
     },
     {
-      "model": "iPhone 12 mini", "memory": "128GB", "ask": 300, "location": "Wałdowo",
-      "shipping": "do potwierdzenia", "link": "https://www.olx.pl/d/oferta/iphone-12-mini-128gb-CID99-ID1coWYZ.html",
-      "condition_note": "brak szczegółów", "status": "NOWA", "bucket": "12mini-in-budget"
+      "model": "iPhone 12", "memory": "64GB", "ask": 550, "location": "Smolnica",
+      "shipping": "do potwierdzenia", "link": "https://www.olx.pl/d/oferta/iphone-12-64gb-88-CID99-ID1cq0fO.html",
+      "condition_note": "bateria 88%, solidna, nego do ~480 max buy", "status": "NOWA", "bucket": "12-band-nego"
     },
     {
-      "model": "iPhone 12 mini", "memory": "128GB", "ask": 460, "location": "Grudziądz",
-      "shipping": "tak (Dostawa gratis)", "link": "https://www.olx.pl/d/oferta/iphone-12-mini-5g-128gb-80-bateria-stan-idealny-CID99-ID1c6bYz.html",
-      "condition_note": "bateria 80%, stan idealny wg opisu", "status": "NOWA", "bucket": "12mini-in-budget"
+      "model": "iPhone 12 mini", "memory": "256GB", "ask": 650, "location": "Kraków, Prądnik Biały",
+      "shipping": "tak (Dostawa gratis)", "link": "https://www.olx.pl/d/oferta/iphone-12-mini-256gb-stan-bdb-zadbane-etui-szklo-bez-wad-CID99-ID1bVtaa.html",
+      "condition_note": "stan BDB wg opisu, 256GB bonus pojemnosci, nego w dol", "status": "NOWA", "bucket": "12mini-band-nego"
     },
     {
-      "model": "iPhone 12 mini", "memory": "128GB", "ask": 450, "location": "Zręcin",
-      "shipping": "tak (Dostawa gratis)", "link": "https://www.olx.pl/d/oferta/iphone-12-mini-128gb-CID99-ID1coSCj.html",
-      "condition_note": "brak szczegółów", "status": "NOWA", "bucket": "12mini-in-budget"
-    },
-    {
-      "model": "iPhone 12 mini", "memory": "brak w tytule", "ask": 470, "location": "Pleszew",
+      "model": "iPhone 12 mini", "memory": "128GB", "ask": 430, "location": "Pleszew",
       "shipping": "do potwierdzenia", "link": "https://www.olx.pl/d/oferta/iphone-12-mini-stan-bardzo-dobry-CID99-ID1c5Sxv.html",
-      "condition_note": "\"stan bardzo dobry\"", "status": "NOWA", "bucket": "12mini-in-budget"
+      "condition_note": "ten sam link co 19.09 (byl 470 zl) - cena spadla do 430, teraz w budzecie 400-480", "status": "ZNANA-price-drop", "bucket": "12mini-in-budget"
     },
     {
-      "model": "iPhone 12 mini", "memory": "brak w tytule", "ask": 490, "location": "Bydgoszcz",
-      "shipping": "do potwierdzenia", "link": "https://www.olx.pl/d/oferta/iphone-12-mini-uzywany-CID99-ID1coYxt.html",
-      "condition_note": "do negocjacji, na górnej granicy max buy", "status": "NOWA", "bucket": "12mini-top-of-budget"
+      "model": "iPhone 12 mini", "memory": "128GB", "ask": 550, "location": "Orzech",
+      "shipping": "do potwierdzenia", "link": "https://www.olx.pl/d/oferta/iphone-12-mini-128gb-CID99-ID1cpYFy.html",
+      "condition_note": "brak szczegolow, nad max buy 480, do nego", "status": "NOWA", "bucket": "12mini-band-nego"
     },
     {
-      "model": "iPhone 12 mini", "memory": "128GB", "ask": 649, "location": "Bielsko-Biała",
-      "shipping": "do potwierdzenia", "link": "https://www.olx.pl/d/oferta/jak-nowy-iphone-12-mini-128gb-2-lata-gwarancji-rozne-kolory-CID99-ID132nPZ.html",
-      "condition_note": "\"jak nowy\", 2 lata gwarancji (sklep)", "status": "NOWA", "bucket": "12mini-band-nego"
+      "model": "iPhone 12 mini", "memory": "brak w tytule", "ask": 420, "location": "Warszawa, Praga-Południe",
+      "shipping": "do potwierdzenia", "link": "https://www.olx.pl/d/oferta/sprzedam-iphona-12-mini-CID99-ID1cpfEo.html",
+      "condition_note": "brak pamieci/baterii w tytule, ask w budzecie, wymaga dopytania", "status": "NOWA", "bucket": "12mini-in-budget"
     },
     {
-      "model": "iPhone 11", "memory": "64GB", "ask": 250, "location": "Poznań, Piątkowo",
-      "shipping": "do potwierdzenia", "link": "https://www.olx.pl/d/oferta/iphone-11-64-gb-CID99-ID1coYP9.html",
-      "condition_note": "brak szczegółów", "status": "NOWA", "bucket": "11-in-budget"
+      "model": "iPhone SE 2022", "memory": "128GB", "ask": 450, "location": "Sosnowiec",
+      "shipping": "do potwierdzenia", "link": "https://www.olx.pl/d/oferta/iphone-se-2022-3-gen-128-gb-CID99-ID1cpXHx.html",
+      "condition_note": "do negocjacji, posted dzisiaj, najblizszy budzetowi SE22 hit od tygodni (max buy 365-425)", "status": "NOWA", "bucket": "se22-band-nego"
     },
     {
-      "model": "iPhone 11", "memory": "64GB", "ask": 350, "location": "Witkowo",
-      "shipping": "do potwierdzenia", "link": "https://www.olx.pl/d/oferta/sprzedam-iphone-11-64gb-CID18oYlG.html",
-      "condition_note": "do negocjacji", "status": "NOWA", "bucket": "11-in-budget"
-    },
-    {
-      "model": "iPhone 11", "memory": "brak w tytule", "ask": 370, "location": "Imielin, Centrum",
-      "shipping": "tak (Dostawa gratis)", "link": "https://www.olx.pl/d/oferta/apple-iphone-11-CID99-ID1c8JQP.html",
-      "condition_note": "brak szczegółów, górna granica max buy", "status": "NOWA", "bucket": "11-top-of-budget"
+      "model": "iPhone 11", "memory": "64GB", "ask": 350, "location": "Słupsk",
+      "shipping": "do potwierdzenia", "link": "https://www.olx.pl/d/oferta/iphone-11-64-gb-CID99-ID1cpnpP.html",
+      "condition_note": "brak szczegolow, w budzecie (max buy 315-365)", "status": "NOWA", "bucket": "11-in-budget"
     },
     {
       "model": "iPhone 11", "memory": "brak w tytule", "ask": 350, "location": "Katowice, Szopienice-Burowiec",
       "shipping": "do potwierdzenia", "link": "https://www.olx.pl/d/oferta/iphone-11-w-dobrym-stanie-CID99-ID1bH7ta.html",
-      "condition_note": "\"dobry stan\"", "status": "NOWA", "bucket": "11-in-budget"
-    },
-    {
-      "model": "iPhone 11 Pro (poza kanonem, bonus)", "memory": "64GB", "ask": 300, "location": "Harbutowice",
-      "shipping": "tak (Dostawa gratis)", "link": "https://www.olx.pl/d/oferta/iphone-11-pro-64-gb-CID99-ID1coXRv.html",
-      "condition_note": "do negocjacji, model Pro w cenie zwykłej 11 - okazyjnie", "status": "NOWA", "bucket": "bonus-off-canon"
+      "condition_note": "ten sam link co 19.09, nadal aktywna, w budzecie", "status": "ZNANA", "bucket": "11-in-budget"
     }
   ],
+  "watch_low_priority": [
+    {"model": "iPhone 12 mini 64GB", "ask": 550, "battery": "78%", "location": "Łuków", "link": "https://www.olx.pl/d/oferta/iphone-12-mini-64gb-kondycja-78-CID99-ID1cq0lC.html", "note": "bateria slaba jak na cene nad max buy - niski priorytet"},
+    {"model": "iPhone 12 mini 64GB", "ask": 650, "battery": "84%", "location": "Łuków", "link": "https://www.olx.pl/d/oferta/iphone-12-mini-64gb-kondycja-bateri-84-CID99-ID1cq0ew.html", "note": "j.w., ten sam sprzedawca, drugi egzemplarz"}
+  ],
+  "rejected_flags": [
+    {"model": "iPhone 11 64GB", "ask": 500, "battery": "74%", "location": "Gubin", "link": "https://www.olx.pl/d/oferta/iphone-11-74-kondycji-baterii-64gb-CID99-ID1cpXYE.html", "reason": "bateria 74% - ponizej progu hard-stop 75% bez duzego dyskontu, a ask i tak nad max buy 11"},
+    {"model": "iPhone 11 64GB \"kondycja serwis\"", "ask": 60, "location": "Krzęcin", "link": "https://www.olx.pl/d/oferta/iphone-11-64gb-kondycja-serwis-CID99-ID1cpUt8.html", "reason": "podejrzanie tanie + \"kondycja serwis\" w tytule sugeruje uszkodzenie/na czesci - hard-stop ryzyko"}
+  ],
+  "zniknely_vs_19_09": [
+    {"model": "iPhone 11 64GB", "ask": 250, "location": "Poznań, Piątkowo", "link": "https://www.olx.pl/d/oferta/iphone-11-64-gb-CID99-ID1coYP9.html", "prev_tag": "rank1", "note": "byl najlepszy hit 19.09 przy 250 zl - prawdopodobnie sold"},
+    {"model": "iPhone 11 64GB", "ask": 350, "location": "Witkowo", "link": "https://www.olx.pl/d/oferta/sprzedam-iphone-11-64gb-CID18oYlG.html"},
+    {"model": "iPhone 11", "ask": 370, "location": "Imielin, Centrum", "link": "https://www.olx.pl/d/oferta/apple-iphone-11-CID99-ID1c8JQP.html"},
+    {"model": "iPhone 12 mini 128GB", "ask": 300, "location": "Wałdowo", "link": "https://www.olx.pl/d/oferta/iphone-12-mini-128gb-CID99-ID1coWYZ.html", "note": "byla bardzo tania - prawdopodobnie sold"},
+    {"model": "iPhone 12 mini 128GB 80%", "ask": 460, "location": "Grudziądz", "link": "https://www.olx.pl/d/oferta/iphone-12-mini-5g-128gb-80-bateria-stan-idealny-CID99-ID1c6bYz.html"},
+    {"model": "iPhone 12 mini 128GB", "ask": 450, "location": "Zręcin", "link": "https://www.olx.pl/d/oferta/iphone-12-mini-128gb-CID99-ID1coSCj.html"},
+    {"model": "iPhone 12 mini", "ask": 490, "location": "Bydgoszcz", "link": "https://www.olx.pl/d/oferta/iphone-12-mini-uzywany-CID99-ID1coYxt.html"},
+    {"model": "iPhone 12 mini 128GB", "ask": 649, "location": "Bielsko-Biała", "link": "https://www.olx.pl/d/oferta/jak-nowy-iphone-12-mini-128gb-2-lata-gwarancji-rozne-kolory-CID99-ID132nPZ.html"},
+    {"model": "iPhone 13 ?GB", "ask": 650, "location": "Olsztyn", "link": "https://www.olx.pl/d/oferta/iphone-13-w-bardzo-dobrym-stanie-CID99-ID1coYcc.html", "prev_tag": "rank3"},
+    {"model": "iPhone 13 mini 128GB", "ask": 600, "location": "Jastrzębie-Zdrój", "link": "https://www.olx.pl/d/oferta/iphone-13-mini-rozowy-128-gb-CID99-ID1cnhXe.html"}
+  ],
   "rejected_categories_summary": {
-    "13_powyzej_pasma_500_700": "Wiele 13/128 w 750-1200 zł (Poznań 750, Wejherowo 800/849, Gdynia 800, Kaniów 800, Warszawa 850-990) - odrzucone, poza pasmem nego.",
-    "12_pro_zawyzony": "Najtańszy widoczny 12 Pro: 800 zł Lublin (Dostawa gratis, 'IDEAŁ') - wciąż poza pasmem 500-700, do obserwacji jeśli spadnie.",
-    "12_zwykly_zawyzony": "Najtańszy 12 (bez Pro/mini): 890 zł Nowy Sącz - poza budżetem.",
-    "se2022_zawyzony": "Wszystkie widoczne SE2022 w 575-1000 zł, max buy 365-425 - CAŁY rynek SE2022 obecnie poza budżetem, brak ofert w kanonie.",
-    "12mini_dodatkowe_duplikaty_w_budzecie": "Kilka dalszych 12 mini 128GB w 400-450 zł (Poznań/Grunwald 450, Wrocław/Fabryczna 450, Kielce 400, Lublin 420) - podobne do już wylistowanych, pominięte dla zwięzłości.",
-    "podejrzanie_tanie_pominiete": "Iphone 12 mini 128GB Inowrocław 200 zł - brak jakichkolwiek szczegółów, zbyt niska cena bez opisu - do weryfikacji, nie flagowane jako pewny hit."
+    "13_powyzej_pasma": "13/128 dostepne dzis: 849 zl Warszawa (nad pasmem 500-700), 13 Pro/Pro Max 1199-1650 zl - wszystko poza budzetem, zero nowych hitow w pasmie 500-700 dla 13.",
+    "se2022_wiekszosc_nadal_zawyzona": "Reszta SE22: 575-1000 zl (Krakow 799, Lodz 789, Warszawa 850/575/1000, Nysa 750) - poza budzetem, tylko Sosnowiec 450 blisko.",
+    "11_wiekszosc_zawyzona": "11: 700-799 zl mimo dobrej baterii (Poznan 700 bat100%, Kielce 799, Gdansk 749) - nad max buy mimo dobrego stanu."
   }
 }
